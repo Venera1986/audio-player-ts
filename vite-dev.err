@@ -1,0 +1,629 @@
+[2m17:57:26[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/login[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at afterConnectMultiple (node:net:1783:7)
+[2m17:57:38[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/register[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at afterConnectMultiple (node:net:1783:7)
+[2m17:57:39[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/register[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at afterConnectMultiple (node:net:1783:7)
+[2m17:57:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/login[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1193:18)
+    at afterConnectMultiple (node:net:1783:7)
+[2m18:15:23[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] postcss-import: C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\src\styles\player.css:2452:1: Unexpected }[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/79171/Desktop/FRONT_ДОМАШКИ/TS/Итоговая_работа_аудиоплеер/audio-player-frontend/src/styles/player.css[39m:2452:0
+[33m  2450 |    border-top: 1px solid var(--color-border);
+  2451 |    background: var(--color-panel);
+  2452 |  }
+       |  ^
+  2453 |  
+  2454 |  .player__track {[39m
+      at Input.error (C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\node_modules\postcss\lib\input.js:135:16)
+      at Parser.unexpectedClose (C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\node_modules\postcss\lib\parser.js:594:22)
+      at Parser.end (C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\node_modules\postcss\lib\parser.js:337:12)
+      at Parser.parse (C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\node_modules\postcss\lib\parser.js:463:16)
+      at parse (C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\node_modules\postcss\lib\parse.js:11:12)
+      at get root (C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\node_modules\postcss\lib\no-work-result.js:43:14)
+      at Result.get [as root] (C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\node_modules\postcss\lib\no-work-result.js:76:21)
+      at loadImportContent (file:///C:/Users/79171/Desktop/FRONT_%D0%94%D0%9E%D0%9C%D0%90%D0%A8%D0%9A%D0%98/TS/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/audio-player-frontend/node_modules/vite/dist/node/chunks/postcss-import.js:399:33)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/79171/Desktop/FRONT_%D0%94%D0%9E%D0%9C%D0%90%D0%A8%D0%9A%D0%98/TS/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/audio-player-frontend/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+[2m18:15:23[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/style.css. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m18:18:45[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\src\styles\player.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/79171/Desktop/FRONT_ДОМАШКИ/TS/Итоговая_работа_аудиоплеер/audio-player-frontend/src/style.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:640:25)
+      at async Object.readFile (node:internal/fs/promises:1287:14)
+      at async Object.load (file:///C:/Users/79171/Desktop/FRONT_%D0%94%D0%9E%D0%9C%D0%90%D0%A8%D0%9A%D0%98/TS/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/audio-player-frontend/node_modules/vite/dist/node/chunks/node.js:21112:17)
+      at async loadImportContent (file:///C:/Users/79171/Desktop/FRONT_%D0%94%D0%9E%D0%9C%D0%90%D0%A8%D0%9A%D0%98/TS/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/audio-player-frontend/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/79171/Desktop/FRONT_%D0%94%D0%9E%D0%9C%D0%90%D0%A8%D0%9A%D0%98/TS/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/audio-player-frontend/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/79171/Desktop/FRONT_%D0%94%D0%9E%D0%9C%D0%90%D0%A8%D0%9A%D0%98/TS/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/audio-player-frontend/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/79171/Desktop/FRONT_%D0%94%D0%9E%D0%9C%D0%90%D0%A8%D0%9A%D0%98/TS/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/audio-player-frontend/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\79171\Desktop\FRONT_ДОМАШКИ\TS\Итоговая_работа_аудиоплеер\audio-player-frontend\node_modules\postcss\lib\lazy-result.js:293:11)
+      at async runPostCSS (file:///C:/Users/79171/Desktop/FRONT_%D0%94%D0%9E%D0%9C%D0%90%D0%A8%D0%9A%D0%98/TS/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/audio-player-frontend/node_modules/vite/dist/node/chunks/node.js:21166:19)
+[2m18:18:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/style.css. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m19:27:52[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782313066448:245:27)
+[2m19:27:52[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782313066448:245:27)
+[2m19:27:52[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782313066448:245:27)
+[2m19:27:58[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782313066448:245:27)
+[2m19:27:58[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782313066448:245:27)
+[2m19:27:58[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782313066448:245:27)
+[2m19:43:33[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782313066448:170:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782313066448:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782313066448:45:3)
+[2m19:46:51[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782316009286:176:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782316009286:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782316009286:45:3)
+[2m19:47:10[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782316029031:182:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782316029031:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782316029031:45:3)
+[2m19:47:43[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782316062428:182:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782316062428:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782316062428:45:3)
+[2m19:50:03[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782316062428:182:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782316062428:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782316062428:45:3)
+[2m19:54:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782316469211:182:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782316469211:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782316469211:45:3)
+[2m19:56:21[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782316469211:182:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782316469211:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782316469211:45:3)
+[2m20:03:31[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782317010450:189:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782317010450:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782317010450:45:3)
+[2m20:04:11[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317010450:264:27)
+[2m20:04:11[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317010450:264:27)
+[2m20:04:11[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317010450:264:27)
+[2m20:04:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317010450:264:27)
+[2m20:04:24[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317010450:264:27)
+[2m20:04:24[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317010450:264:27)
+[2m20:05:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782317137208:194:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782317137208:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782317137208:45:3)
+[2m20:06:32[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317137208:269:27)
+[2m20:06:32[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317137208:269:27)
+[2m20:06:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317137208:269:27)
+[2m20:10:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:197:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:45:3)
+[2m20:15:27[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:272:27)
+[2m20:15:27[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:272:27)
+[2m20:15:27[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:272:27)
+[2m20:21:18[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:272:27)
+[2m20:21:18[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:272:27)
+[2m20:21:18[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:272:27)
+[2m20:21:46[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:272:27)
+[2m20:21:46[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:272:27)
+[2m20:21:46[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782317458606:272:27)
+[2m20:26:04[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782318364185:197:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782318364185:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782318364185:45:3)
+[2m20:37:48[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782318364185:268:27)
+[2m20:37:48[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782318364185:268:27)
+[2m20:37:48[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782318364185:268:27)
+[2m20:47:11[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782319631230:197:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782319631230:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782319631230:45:3)
+[2m21:01:31[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782319631230:268:27)
+[2m21:01:31[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782319631230:268:27)
+[2m21:01:31[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782319631230:268:27)
+[2m21:01:32[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782319631230:268:27)
+[2m21:01:32[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782319631230:268:27)
+[2m21:01:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782319631230:268:27)
+[2m21:08:24[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782320903174:197:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782320903174:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782320903174:45:3)
+[2m21:09:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts:4:17)
+    at async Promise.all (index 1)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782320903174:197:32)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782320903174:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782320903174:45:3)
+[2m21:09:30[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782320968880:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782320969108:197:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782320969108:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782320969108:45:3)
+[2m21:09:41[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782320968880:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782320980892:197:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782320980892:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782320980892:45:3)
+[2m21:09:55[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts:23:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782320968880:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782320994963:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782320994963:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782320994963:45:3)
+[2m21:10:07[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782321007169:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782321007169:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782321007169:45:3)
+[2m21:10:25[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:45:3)
+[2m14:59:03[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:45:3)
+[2m14:59:09[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:09[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:10[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:18[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:18[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:18[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:19[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:19[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:20[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:20[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:21[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:21[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:21[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m14:59:21[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782321025184:270:27)
+[2m15:06:08[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385567119:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385567119:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385567119:45:3)
+[2m15:06:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:45:3)
+[2m15:38:23[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:45:3)
+[2m15:38:34[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m15:38:34[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m15:38:34[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m17:06:11[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:45:3)
+[2m17:06:18[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m17:06:18[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m17:06:18[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m17:16:23[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:45:3)
+[2m17:23:02[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:45:3)
+[2m17:26:03[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m17:26:03[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m17:26:03[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m17:34:09[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m17:34:09[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m17:34:09[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m18:04:20[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m18:04:20[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m18:04:20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m18:38:34[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getFavorites (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:199:22)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:45:3)
+[2m19:04:16[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m19:04:16[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m19:04:16[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:16:2)
+    at async App.toggleFavoriteFromTracks (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:270:27)
+[2m19:04:20[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:18:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromFavorites (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:284:27)
+[2m19:04:20[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async requestFavoriteWithFallback (http://127.0.0.1:5173/src/services/favoritesService.ts?t=1782321007169:23:10)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromFavorites (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:284:27)
+[2m19:04:20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: Ошибка запроса: 404
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async syncFavorite (http://127.0.0.1:5173/src/controllers/favoritesController.ts?t=1782321007169:13:3)
+    at async App.toggleFavoriteFromFavorites (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:284:27)
+[2m19:06:20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getTracks (http://127.0.0.1:5173/src/services/tracksService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:198:19)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:45:3)
+[2m19:06:20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mError[22m: токен некорректный
+[39m > apiRequest src/services/api.ts:46:10
+    44 |        : `Ошибка запроса: ${response.status}`;
+    45 |  
+    46 |      throw new Error(message);
+       |            ^
+    47 |    }
+    48 |  
+ > getTracks src/services/tracksService.ts:6:17
+ > App.ensureData src/app/App.ts:269:26
+ > App.render src/app/App.ts:76:6
+ > App.init src/app/App.ts:59:4
+
+[2m19:06:30[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getTracks (http://127.0.0.1:5173/src/services/tracksService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:198:19)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:45:3)
+[2m19:06:30[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mError[22m: токен некорректный
+[39m > apiRequest src/services/api.ts:46:10
+    44 |        : `Ошибка запроса: ${response.status}`;
+    45 |  
+    46 |      throw new Error(message);
+       |            ^
+    47 |    }
+    48 |  
+ > getTracks src/services/tracksService.ts:6:17
+ > App.ensureData src/app/App.ts:269:26
+ > App.render src/app/App.ts:76:6
+ > App.init src/app/App.ts:59:4
+
+[2m19:07:29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getTracks (http://127.0.0.1:5173/src/services/tracksService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:198:19)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782385577579:45:3)
+[2m19:07:29[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled rejection] [1mError[22m: токен некорректный
+[39m > apiRequest src/services/api.ts:46:10
+    44 |        : `Ошибка запроса: ${response.status}`;
+    45 |  
+    46 |      throw new Error(message);
+       |            ^
+    47 |    }
+    48 |  
+ > getTracks src/services/tracksService.ts:6:17
+ > App.ensureData src/app/App.ts:269:26
+ > App.render src/app/App.ts:76:6
+ > App.init src/app/App.ts:59:4
+
+[2m19:08:48[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getTracks (http://127.0.0.1:5173/src/services/tracksService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782400127505:198:19)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782400127505:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782400127505:45:3)
+[2m21:32:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getTracks (http://127.0.0.1:5173/src/services/tracksService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782400918213:198:19)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782400918213:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782400918213:45:3)
+[2m02:01:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getTracks (http://127.0.0.1:5173/src/services/tracksService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782400918213:198:19)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782400918213:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782400918213:45:3)
+[2m01:35:38[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError: токен некорректный
+    at apiRequest (http://127.0.0.1:5173/src/services/api.ts?t=1782321007169:24:9)
+    at async getTracks (http://127.0.0.1:5173/src/services/tracksService.ts?t=1782321007169:4:17)
+    at async App.ensureData (http://127.0.0.1:5173/src/app/App.ts?t=1782400918213:198:19)
+    at async App.render (http://127.0.0.1:5173/src/app/App.ts?t=1782400918213:58:4)
+    at async App.init (http://127.0.0.1:5173/src/app/App.ts?t=1782400918213:45:3)

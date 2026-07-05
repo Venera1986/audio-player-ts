@@ -1,0 +1,131 @@
+.auth-page {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 28px;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 107, 69, 0.14), transparent 32%),
+    #eeeeef;
+}
+
+.auth-page__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  font-weight: 800;
+}
+
+.auth-form {
+  display: grid;
+  width: min(100%, 390px);
+  gap: 16px;
+  padding: 28px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 18px 55px rgba(25, 40, 66, 0.1);
+}
+
+.auth-form__title {
+  margin: 0 0 4px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.auth-form__field {
+  display: grid;
+  gap: 8px;
+}
+
+.auth-form__label {
+  color: #9aa0aa;
+  font-size: 13px;
+}
+
+.auth-form__input {
+  width: 100%;
+  height: 44px;
+  padding: 0 14px;
+  border: 1px solid #ededee;
+  border-radius: 8px;
+  outline: 0;
+}
+
+.auth-form__input:focus {
+  border-color: #ff6847;
+}
+
+.auth-form__submit,
+.profile-card__logout {
+  min-height: 44px;
+  border: 0;
+  border-radius: 999px;
+  color: #ffffff;
+  font-weight: 700;
+  background: #ff6847;
+}
+
+.auth-form__switch {
+  margin: 0;
+  color: #9aa0aa;
+  text-align: center;
+}
+
+.auth-form__link {
+  border: 0;
+  color: #ff6847;
+  background: transparent;
+}
+
+.auth-page__message {
+  width: min(100%, 390px);
+  margin: 14px 0 0;
+  color: #f05534;
+  text-align: center;
+}
+
+.content--profile {
+  display: grid;
+  place-items: start center;
+}
+
+.profile-card {
+  display: grid;
+  width: min(100%, 480px);
+  gap: 18px;
+  padding: 28px;
+  border: 1px solid #ededee;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.profile-card__avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background:
+    linear-gradient(135deg, rgba(255, 107, 69, 0.5), rgba(25, 40, 66, 0.25)),
+    #d7dae1;
+}
+
+.profile-card__name {
+  margin: 0 0 6px;
+  font-size: 28px;
+}
+
+.profile-card__text {
+  margin: 0;
+  color: #9aa0aa;
+}
+
+.profile-card__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.profile-card__stat {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #f6f6f7;
+}

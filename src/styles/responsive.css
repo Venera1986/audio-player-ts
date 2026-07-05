@@ -1,0 +1,585 @@
+@media (max-width: 1180px) {
+  .sidebar__link {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+
+  .tracks-table__head,
+  .tracks-table__row {
+    grid-template-columns:
+      30px
+      minmax(190px, 1.6fr)
+      minmax(118px, 0.9fr)
+      minmax(96px, 0.55fr)
+      minmax(78px, 0.44fr)
+      28px;
+  }
+
+  .track-cover,
+  .player__cover {
+    width: 52px;
+    height: 52px;
+  }
+
+  .tracks-table__row {
+    min-height: 76px;
+  }
+
+  .topbar {
+    gap: 24px;
+    grid-template-columns: minmax(0, 1fr) 246px;
+  }
+
+}
+
+@media (max-width: 1020px) {
+  .tracks-table__date,
+  .tracks-table__head span:nth-child(4) {
+    display: none;
+  }
+
+  .tracks-table__head,
+  .tracks-table__row {
+    grid-template-columns:
+      30px
+      minmax(190px, 1.7fr)
+      minmax(128px, 1fr)
+      minmax(82px, 0.44fr)
+      28px;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .layout {
+    display: block;
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+    padding-bottom: 0;
+    background: #eeeeef;
+  }
+
+  .sidebar,
+  .topbar {
+    display: none;
+  }
+
+  .layout__main {
+    height: auto;
+    min-height: 0;
+    width: 100%;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    background: #eeeeef;
+    scrollbar-width: none;
+  }
+
+  .layout__main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .header {
+    gap: 18px;
+  }
+
+  .header__mobile-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+    height: 60px;
+    padding: 0 16px;
+    background: #ffffff;
+  }
+
+  .logo--mobile {
+    --logo-mark-width: clamp(23px, 7.5vw, 27px);
+    --logo-mark-height: clamp(20px, 6.39vw, 23px);
+    --logo-text-width: 143px;
+    --logo-text-height: 30px;
+    --logo-gap: 8px;
+
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: calc(100% - 122px);
+    width: auto;
+    height: 60px;
+    padding: 0;
+  }
+
+  .logo--mobile .logo__mark {
+    flex-basis: var(--logo-mark-width);
+    width: var(--logo-mark-width);
+    height: var(--logo-mark-height);
+  }
+
+  .logo--mobile .logo__text {
+    flex-basis: var(--logo-text-width);
+    max-width: calc(100% - var(--logo-mark-width) - var(--logo-gap));
+    width: var(--logo-text-width);
+    height: var(--logo-text-height);
+  }
+
+  .logo--mobile .logo__mark {
+    background-image: url("../assets/logo/mithosis-logo-mobile.svg");
+  }
+
+  .logo--mobile .logo__text {
+    background-image: url("../assets/logo/mithosis-wordmark-mobile.svg");
+  }
+
+  .user-chip--mobile {
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    max-width: 112px;
+    min-width: 0;
+    height: 25px;
+    min-height: 25px;
+    padding: 0;
+    background: transparent;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  .user-chip--mobile .user-chip__name {
+    max-width: 79px;
+  }
+
+  .user-chip--mobile .user-chip__arrow {
+    display: none;
+  }
+
+  .user-chip--mobile .user-chip__avatar {
+    flex: 0 0 25px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .mobile-tabs {
+    display: flex;
+    gap: 19px;
+    width: 100%;
+    padding: 0 24px 0 14px;
+  }
+
+  .mobile-tabs__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 42px;
+    padding: 0 18px;
+    border: 0;
+    border-radius: 999px;
+    color: #14223a;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .mobile-tabs__button--tracks {
+    flex: 1 1 184px;
+    min-width: 0;
+  }
+
+  .mobile-tabs__button--favorites {
+    flex: 0 0 119px;
+  }
+
+  @media (min-width: 521px) {
+    .mobile-tabs__button--tracks,
+    .mobile-tabs__button--favorites {
+      flex: 1 1 0;
+    }
+  }
+
+  .mobile-tabs__button--active {
+    color: #ffffff;
+    background: #ff6847;
+  }
+
+  .mobile-tabs__button--tracks.mobile-tabs__button--active::before {
+    display: block;
+    flex: 0 0 auto;
+    width: 16px;
+    height: 16px;
+    background: url("../assets/icons/mobile-tab-play.png") center / contain no-repeat;
+    content: "";
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    padding: 16px 16px 0;
+  }
+
+  .content__title {
+    display: none;
+  }
+
+  .tracks-table,
+  .pagination {
+    display: none;
+  }
+
+  .tracks {
+    margin-bottom: 0;
+  }
+
+  .track-cards-scroll {
+    height: auto;
+    overflow: visible;
+  }
+
+  .track-cards {
+    display: grid;
+    gap: 16px;
+    align-content: start;
+    min-height: 0;
+  }
+
+  .track-card {
+    display: grid;
+    grid-template-columns: 60px minmax(0, 1fr) 24px 18px;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 0;
+    width: 100%;
+    height: 60px;
+    min-height: 60px;
+    padding: 0 8px 0 10px;
+    border: 0;
+    color: #14223a;
+    text-align: left;
+    background: #ffffff;
+    cursor: pointer;
+  }
+
+  .track-card--active,
+  .track-card:focus-visible {
+    outline: 2px solid rgba(255, 107, 69, 0.22);
+  }
+
+  .track-card .track-cover {
+    width: 60px;
+    height: 60px;
+  }
+
+  .track-card__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .track-card__artist {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .player {
+    display: grid;
+    grid-template-columns: 60px minmax(0, 1fr) 40px;
+    grid-template-rows: 58px 16px;
+    position: static;
+    right: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 120px;
+    min-height: 120px;
+    margin: 30px 0 0;
+    transform: none;
+    column-gap: 10px;
+    row-gap: 16px;
+    padding: 14px 16px 16px 8px;
+    border-top: 1px solid #ededee;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+
+  .layout--favorites:not(.layout--without-player) {
+    padding-bottom: 120px;
+  }
+
+  .layout--favorites:not(.layout--without-player) .content {
+    padding-bottom: 30px;
+  }
+
+  .layout--favorites:not(.layout--without-player) .player {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+
+  .player__track {
+    display: contents;
+    position: static;
+    width: auto;
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .player__cover {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: start;
+    width: 60px;
+    height: 60px;
+  }
+
+  .player__meta {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: start;
+    width: auto;
+    min-width: 0;
+    height: 46px;
+    gap: 4px;
+    padding-top: 0;
+  }
+
+  .player--empty .player__track {
+    grid-column: 1 / 3;
+  }
+
+  .player--empty .player__meta {
+    grid-column: 1 / 3;
+    align-self: center;
+  }
+
+  .player__title-row {
+    display: grid;
+    grid-template-columns: minmax(0, max-content) 20.25px;
+    align-items: center;
+    justify-content: start;
+    width: fit-content;
+    max-width: 100%;
+    column-gap: 12px;
+  }
+
+  .player__title {
+    flex: initial;
+    color: #171717;
+    font-family: Actor, Arial, sans-serif;
+    max-width: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+  }
+
+  .player__artist {
+    max-width: 100%;
+    color: #9aa0aa;
+    font-family: Actor, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0;
+  }
+
+  .player__favorite {
+    align-self: center;
+    width: 20.25px;
+    height: 18px;
+  }
+
+  .player__controls {
+    position: static;
+    width: auto;
+    min-width: 0;
+    height: auto;
+    display: contents;
+  }
+
+  .player__buttons {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: start;
+    justify-self: center;
+    padding-top: 4px;
+  }
+
+  .player__button {
+    display: none;
+  }
+
+  .player__play {
+    position: relative;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 0;
+    background: #b5b7bd;
+  }
+
+  .player__timeline {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    grid-template-columns: 29px minmax(0, 1fr) 29px;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .player__progress {
+    height: 14px;
+  }
+
+  .player__progress::-webkit-slider-runnable-track {
+    height: 4px;
+  }
+
+  .player__progress::-webkit-slider-thumb {
+    width: 0;
+    height: 0;
+    margin-top: 0;
+  }
+
+  .player__progress::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    border: 0;
+  }
+
+  .player__volume {
+    position: static;
+    display: none;
+  }
+
+  .track-card .favorite-button {
+    width: 24px;
+    height: 24px;
+  }
+
+  .track-card .track-more {
+    justify-self: end;
+    width: 22px;
+    height: 28px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .layout--tracks .player {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .layout__main {
+    width: 100%;
+  }
+
+  .player {
+    width: 100%;
+    max-width: 100%;
+    height: 120px;
+    min-height: 120px;
+    grid-template-columns: 60px minmax(0, 1fr) 40px;
+    grid-template-rows: 58px 16px;
+    column-gap: 10px;
+    row-gap: 16px;
+    padding: 14px 16px 16px 8px;
+  }
+
+  .player__cover {
+    width: 60px;
+    height: 60px;
+  }
+
+  .player__meta {
+    width: auto;
+    min-width: 0;
+    height: 46px;
+    padding-top: 0;
+  }
+
+  .player__title-row {
+    display: grid;
+    grid-template-columns: minmax(0, max-content) 20.25px;
+    justify-content: start;
+    width: fit-content;
+    max-width: 100%;
+    column-gap: 12px;
+  }
+
+  .player__title {
+    flex: initial;
+    color: #171717;
+    font-family: Actor, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+  }
+
+  .player__artist {
+    color: #9aa0aa;
+    font-family: Actor, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0;
+  }
+
+  .player__favorite {
+    width: 20.25px;
+    height: 18px;
+  }
+
+  .player__buttons {
+    align-self: start;
+    justify-self: center;
+    padding-top: 4px;
+  }
+
+  .player__play {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+  }
+
+  .player__timeline {
+    grid-template-columns: 29px minmax(0, 1fr) 29px;
+    gap: 10px;
+  }
+
+  .mobile-tabs__button {
+    min-height: 42px;
+    padding: 0 16px;
+    font-size: 14px;
+  }
+
+  .track-card {
+    grid-template-columns: 60px minmax(0, 1fr) 24px 18px;
+    column-gap: 10px;
+    row-gap: 0;
+    height: 60px;
+    min-height: 60px;
+    padding: 0 8px 0 10px;
+  }
+
+  .track-card .track-cover {
+    width: 60px;
+    height: 60px;
+  }
+
+  .favorite-button {
+    width: 24px;
+    height: 24px;
+  }
+}

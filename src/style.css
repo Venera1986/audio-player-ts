@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Erica+One&family=Nunito+Sans:wght@400&family=Roboto:wght@400;500;700;900&display=swap");
+@import "/src/styles/base.css";
+@import "/src/styles/layout.css";
+@import "/src/styles/tracks.css";
+@import "/src/styles/player.css";
+@import "/src/styles/auth.css";
+@import "/src/styles/responsive.css";
