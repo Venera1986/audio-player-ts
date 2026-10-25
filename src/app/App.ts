@@ -306,7 +306,7 @@ export class App {
     } catch (error) {
       console.error(error);
       logout();
-      this.state.message = 'Пожалуйста, войдите снова';
+      this.state.message = 'Please log in again';
       this.state.tracks = [];
       this.state.favorites = [];
       this.state.trackFavoriteIds = new Set();
@@ -322,7 +322,7 @@ export class App {
     } catch (error) {
       this.state.message = error instanceof Error
         ? error.message
-        : 'Не удалось зарегистрироваться';
+        : 'Registration failed';
       await this.render();
     }
   }
@@ -333,7 +333,7 @@ export class App {
       this.state.message = '';
       navigate('tracks');
     } catch (error) {
-      this.state.message = error instanceof Error ? error.message : 'Не удалось войти';
+      this.state.message = error instanceof Error ? error.message : 'Login failed';
       await this.render();
     }
   }

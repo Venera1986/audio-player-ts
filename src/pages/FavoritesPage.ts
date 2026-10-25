@@ -13,7 +13,7 @@ interface FavoritesPageOptions {
 export function createFavoritesPage(options: FavoritesPageOptions): HTMLElement {
   return el(
     'main.content',
-    el('h1.content__title', 'Избранное'),
+    el('h1.content__title', 'Favorites'),
     createTrackList({
       tracks: options.tracks,
       favoriteIds: options.favoriteIds,

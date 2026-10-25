@@ -89,7 +89,7 @@ export function createBottomPlayer(options: BottomPlayerOptions): HTMLElement {
   updateRangeFill(volumeInput);
   options.registerProgress(progressInput, currentTime, duration);
 
-  let title = 'Выберите трек';
+  let title = 'Select a track';
   let artist = 'VibeCast Studio';
 
   if (options.track) {
@@ -110,8 +110,8 @@ export function createBottomPlayer(options: BottomPlayerOptions): HTMLElement {
           options.track
             ? el(favoriteButtonClass, {
                 type: 'button',
-                title: options.isFavorite ? 'Убрать из избранного' : 'Добавить в избранное',
-                'aria-label': options.isFavorite ? 'Убрать из избранного' : 'Добавить в избранное',
+                title: options.isFavorite ? 'Remove from favorites' : 'Add to favorites',
+                'aria-label': options.isFavorite ? 'Remove from favorites' : 'Add to favorites',
                 onclick: options.onToggleFavorite,
               })
             : el('span.player__favorite-placeholder'),

@@ -41,7 +41,7 @@ export async function apiRequest<T>(
   if (!response.ok) {
     const message = isApiErrorResponse(data)
       ? data.message
-      : `Ошибка запроса: ${response.status}`;
+      : `Request failed: ${response.status}`;
 
     throw new Error(message);
   }

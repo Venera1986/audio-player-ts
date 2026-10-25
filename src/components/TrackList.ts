@@ -39,8 +39,8 @@ function createFavoriteButton(
     {
       className: isFavorite ? 'favorite-button favorite-button--active' : 'favorite-button',
       type: 'button',
-      title: isFavorite ? 'Убрать из избранного' : 'Добавить в избранное',
-      'aria-label': isFavorite ? 'Убрать из избранного' : 'Добавить в избранное',
+      title: isFavorite ? 'Remove from favorites' : 'Add to favorites',
+      'aria-label': isFavorite ? 'Remove from favorites' : 'Add to favorites',
       onclick: (event: MouseEvent) => {
         event.preventDefault();
         event.stopPropagation();
@@ -57,8 +57,8 @@ function createMoreButton(): HTMLElement {
     {
       className: 'track-more',
       type: 'button',
-      title: 'Меню трека',
-      'aria-label': 'Меню трека',
+      title: 'Track menu',
+      'aria-label': 'Track menu',
       onclick: (event: MouseEvent) => {
         event.preventDefault();
         event.stopPropagation();
@@ -104,7 +104,7 @@ function createDesktopRow(
       ),
     ),
     el('span.tracks-table__album', album),
-    el('span.tracks-table__date', `${5 + (track.id % 6)} дней назад`),
+    el('span.tracks-table__date', `${5 + (track.id % 6)} days ago`),
     el(
       'span.tracks-table__duration',
       createFavoriteButton(track, isFavorite, options.onToggleFavorite),
@@ -140,7 +140,7 @@ function createMobileCard(track: Track, options: TrackListOptions): HTMLElement 
 
 export function createTrackList(options: TrackListOptions): HTMLElement {
   if (options.tracks.length === 0) {
-    return el('div.empty-state', 'Треки не найдены');
+    return el('div.empty-state', 'No tracks found');
   }
 
   return el(
@@ -149,11 +149,11 @@ export function createTrackList(options: TrackListOptions): HTMLElement {
       'div.tracks-table',
       el(
         'div.tracks-table__head',
-        el('span.tracks-table__number-head', { role: 'img', 'aria-label': 'Номер' }),
-        el('span', 'Название'),
-        el('span', 'Альбом'),
-        el('span.tracks-table__head-icon tracks-table__head-icon--calendar', { 'aria-label': 'Дата' }),
-        el('span.tracks-table__head-icon tracks-table__head-icon--clock', { 'aria-label': 'Время' }),
+        el('span.tracks-table__number-head', { role: 'img', 'aria-label': 'Number' }),
+        el('span', 'Title'),
+        el('span', 'Album'),
+        el('span.tracks-table__head-icon tracks-table__head-icon--calendar', { 'aria-label': 'Date' }),
+        el('span.tracks-table__head-icon tracks-table__head-icon--clock', { 'aria-label': 'Duration' }),
         el('span', ''),
       ),
       options.tracks.map((track, index) => createDesktopRow(track, index + 1, options)),

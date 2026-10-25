@@ -21,8 +21,8 @@ const TRACK_METADATA: { [id: number]: TrackMetadata } = {
     coverUrl: '/images/covers/coolio-gangstas-paradise.png',
   },
   3: {
-    title: 'Разговоры о животных',
-    artist: 'Подкаст-студия Константина Петрова',
+    title: 'Talking About Animals',
+    artist: 'Konstantin Petrov Podcast Studio',
     coverUrl: '/images/covers/podcast-animals.png',
   },
   4: {
@@ -33,7 +33,7 @@ const TRACK_METADATA: { [id: number]: TrackMetadata } = {
   },
   5: {
     title: 'Comic news',
-    artist: 'Команда КВН Плохие новости',
+    artist: 'Bad News Comedy Team',
     coverUrl: '/images/covers/comic-news.png',
   },
   6: {

@@ -48,8 +48,8 @@ export function createSidebar(options: SidebarOptions): HTMLElement {
     ),
     el(
       'nav.sidebar__nav',
-      createNavButton('Избранное', 'favorites', options.activeRoute, options.onNavigate),
-      createNavButton('Аудиокомпозиции', 'tracks', options.activeRoute, options.onNavigate),
+      createNavButton('Favorites', 'favorites', options.activeRoute, options.onNavigate),
+      createNavButton('Tracks', 'tracks', options.activeRoute, options.onNavigate),
     ),
   );
 }

@@ -17,7 +17,7 @@ interface TracksPageOptions {
 export function createTracksPage(options: TracksPageOptions): HTMLElement {
   return el(
     'main.content',
-    el('h1.content__title', 'Аудиофайлы и треки'),
+    el('h1.content__title', 'Audio Files & Tracks'),
     createTrackList(options),
     createPagination({
       currentPage: options.currentPage,

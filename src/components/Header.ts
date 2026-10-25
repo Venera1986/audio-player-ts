@@ -29,7 +29,7 @@ export function createHeader(options: HeaderOptions): HTMLElement {
   const searchInput = el('input.topbar__search-input', {
     type: 'search',
     maxLength: 100,
-    placeholder: 'Что будем искать?',
+    placeholder: 'What are you looking for?',
     value: options.searchQuery,
     oninput: (event: Event) => {
       const target = event.target as HTMLInputElement;
@@ -67,7 +67,7 @@ export function createHeader(options: HeaderOptions): HTMLElement {
           'span.user-chip__arrow',
           {
             role: 'button',
-            title: 'Выйти',
+            title: 'Log out',
             onclick: (event: MouseEvent) => {
               event.stopPropagation();
               options.onLogout();
@@ -79,8 +79,8 @@ export function createHeader(options: HeaderOptions): HTMLElement {
     ),
     el(
       'nav.mobile-tabs',
-      createMobileTab('Аудиокомпозиции', 'tracks', options.activeRoute, options.onNavigate),
-      createMobileTab('Избранное', 'favorites', options.activeRoute, options.onNavigate),
+      createMobileTab('Tracks', 'tracks', options.activeRoute, options.onNavigate),
+      createMobileTab('Favorites', 'favorites', options.activeRoute, options.onNavigate),
     ),
   );
 }
