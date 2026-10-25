@@ -28,6 +28,7 @@ function createMobileTab(
 export function createHeader(options: HeaderOptions): HTMLElement {
   const searchInput = el('input.topbar__search-input', {
     type: 'search',
+    maxLength: 100,
     placeholder: 'Что будем искать?',
     value: options.searchQuery,
     oninput: (event: Event) => {
@@ -51,6 +52,7 @@ export function createHeader(options: HeaderOptions): HTMLElement {
         { className: 'user-chip user-chip--mobile', type: 'button', onclick: () => options.onNavigate('profile') },
         el('span.user-chip__avatar'),
         el('span.user-chip__name', options.username),
+        el('span.user-chip__arrow', '›'),
       ),
     ),
     el(

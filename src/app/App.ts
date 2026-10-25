@@ -1,4 +1,6 @@
 import { el, setChildren } from 'redom';
+import BScroll from '@better-scroll/core';
+import type { BScrollInstance } from '@better-scroll/core';
 import { login, logout, registerAndLogin } from '../controllers/authController';
 import {
   addLocalFavorite,
@@ -39,6 +41,8 @@ export class App {
   private progressInput: HTMLInputElement | null = null;
   private currentTimeLabel: HTMLElement | null = null;
   private durationLabel: HTMLElement | null = null;
+  private trackCardsScroll: BScrollInstance | null = null;
+  private trackCardsScrollToken = 0;
 
   constructor() {
     const mobileMedia = window.matchMedia('(max-width: 900px)');
@@ -86,6 +90,7 @@ export class App {
           onRegister: () => navigate('register'),
         }),
       ]);
+      this.destroyTrackCardsScroll();
       return;
     }
 
@@ -97,10 +102,12 @@ export class App {
           onLogin: () => navigate('login'),
         }),
       ]);
+      this.destroyTrackCardsScroll();
       return;
     }
 
     setChildren(this.el, [this.createProtectedLayout(route)]);
+    this.refreshTrackCardsScroll();
   }
 
   private createProtectedLayout(route: RouteName): HTMLElement {
@@ -124,11 +131,7 @@ export class App {
           username: getUsername(),
           searchQuery: this.state.searchQuery,
           activeRoute: route,
-          onSearch: (value) => {
-            this.state.searchQuery = value;
-            this.state.currentPage = 1;
-            void this.render();
-          },
+          onSearch: (value) => void this.handleSearch(value),
           onNavigate: navigate,
           onLogout: () => this.handleLogout(),
         }),
@@ -143,7 +146,7 @@ export class App {
     const totalPages = Math.max(Math.ceil(filteredTracks.length / PAGE_SIZE), 1);
     const currentTrackId = this.player.currentTrack ? this.player.currentTrack.id : null;
     const pageTracks = this.state.isMobileView
-      ? filteredTracks.slice(0, PAGE_SIZE)
+      ? filteredTracks
       : filteredTracks.slice(
           (this.state.currentPage - 1) * PAGE_SIZE,
           this.state.currentPage * PAGE_SIZE,
@@ -153,7 +156,7 @@ export class App {
     if (route === 'favorites') {
       const filteredFavorites = this.state.favorites.filter((track) => this.matchesSearch(track));
       const favoriteTracks = this.state.isMobileView
-        ? filteredFavorites.slice(0, PAGE_SIZE)
+        ? filteredFavorites
         : filteredFavorites;
 
       return createFavoritesPage({
@@ -215,6 +218,42 @@ export class App {
         this.currentTimeLabel = current;
         this.durationLabel = duration;
       },
+    });
+  }
+
+  private destroyTrackCardsScroll(): void {
+    this.trackCardsScrollToken += 1;
+    this.trackCardsScroll?.destroy();
+    this.trackCardsScroll = null;
+  }
+
+  private refreshTrackCardsScroll(): void {
+    this.destroyTrackCardsScroll();
+
+    if (!this.state.isMobileView) {
+      return;
+    }
+
+    const wrapper = this.el.querySelector<HTMLElement>('.track-cards-scroll');
+
+    if (!wrapper) {
+      return;
+    }
+
+    const token = this.trackCardsScrollToken;
+
+    window.requestAnimationFrame(() => {
+      if (token !== this.trackCardsScrollToken || !wrapper.isConnected || !this.state.isMobileView) {
+        return;
+      }
+
+      this.trackCardsScroll = new BScroll(wrapper, {
+        scrollY: true,
+        scrollX: false,
+        click: true,
+        bounce: false,
+        disableMouse: false,
+      });
     });
   }
 
@@ -386,6 +425,19 @@ export class App {
 
   private getFilteredTracks(): Track[] {
     return this.state.tracks.filter((track) => this.matchesSearch(track));
+  }
+
+  private async handleSearch(value: string): Promise<void> {
+    this.state.searchQuery = value.slice(0, 100);
+    this.state.currentPage = 1;
+    await this.render();
+
+    const searchInput = this.el.querySelector<HTMLInputElement>('.topbar__search-input');
+
+    if (searchInput) {
+      searchInput.focus();
+      searchInput.setSelectionRange(this.state.searchQuery.length, this.state.searchQuery.length);
+    }
   }
 
   private matchesSearch(track: Track): boolean {

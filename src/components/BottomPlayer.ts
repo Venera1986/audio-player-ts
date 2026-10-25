@@ -45,10 +45,12 @@ function createPlayerCover(track: Track | null): HTMLElement {
 export function createBottomPlayer(options: BottomPlayerOptions): HTMLElement {
   const hasTrack = Boolean(options.track);
   let playButtonClass = 'button.player__play.player__play--play';
+  let playButtonLabel = 'Play';
   let favoriteButtonClass = 'button.player__favorite';
 
   if (options.isPlaying) {
-    playButtonClass = 'button.player__play';
+    playButtonClass = 'button.player__play.player__play--pause';
+    playButtonLabel = 'Pause';
   }
 
   if (options.isFavorite) {
@@ -123,7 +125,13 @@ export function createBottomPlayer(options: BottomPlayerOptions): HTMLElement {
         'div.player__buttons',
         el('button.player__button.player__button--shuffle', { type: 'button', title: 'Shuffle', 'aria-label': 'Shuffle', onclick: () => options.onRewind(-10) }),
         el('button.player__button.player__button--previous', { type: 'button', title: 'Previous', 'aria-label': 'Previous', onclick: options.onPrevious }),
-        el(playButtonClass, { type: 'button', title: 'Play', 'aria-label': 'Play', disabled: !hasTrack, onclick: options.onTogglePlay }),
+        el(playButtonClass, {
+          type: 'button',
+          title: playButtonLabel,
+          'aria-label': playButtonLabel,
+          disabled: !hasTrack,
+          onclick: options.onTogglePlay,
+        }),
         el('button.player__button.player__button--next', { type: 'button', title: 'Next', 'aria-label': 'Next', onclick: options.onNext }),
         el('button.player__button.player__button--repeat', { type: 'button', title: 'Repeat', 'aria-label': 'Repeat', onclick: () => options.onRewind(10) }),
       ),
