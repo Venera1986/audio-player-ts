@@ -4,3 +4,6 @@ dist
 
 # Local user database with password hashes
 express-backend/data/users.json
+
+# Local environment variables
+.env
